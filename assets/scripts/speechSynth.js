@@ -42,7 +42,7 @@ function getOptionIndex() {
 }
 
 function openMouth() {
-  let face = document.querySelector('#explore > img');
+  let face = document.querySelector('#expose > img');
   face.setAttribute('src', 'assets/images/smiling-open.png');
   setTimeout(() => {
     if (synth.speaking) {
